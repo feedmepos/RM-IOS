@@ -23,4 +23,8 @@ public struct Order: Codable {
         self.currencyType = order["currencyType"] as! String
         self.amount = order["amount"] as! NSInteger
     }
+    
+    public func getId() -> String {
+        return self.id
+    }
 }

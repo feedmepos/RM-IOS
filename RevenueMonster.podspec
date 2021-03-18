@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RevenueMonster'
-  s.version          = '1.3'
+  s.version          = '1.4'
   s.summary          = 'RM SDK for IOS'
 
   s.description      = <<-DESC

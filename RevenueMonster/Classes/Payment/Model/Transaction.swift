@@ -49,6 +49,10 @@ public struct Transaction: Codable {
         self.updatedAt = transaction["updatedAt"] as! String
     }
     
+    public func getOrder() -> Order {
+        return self.order
+    }
+    
     public func getTransactionId() -> String {
         return self.transactionId
     }
